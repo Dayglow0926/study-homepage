@@ -1,0 +1,65 @@
+@import url("../style.css");
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.credit {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  padding-top: 100px;
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.member-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.member-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.member-content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.member-content span {
+  text-align: right;
+  width: 45%;
+}
+.member-content p {
+  width: 45%;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.background-img img {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+}
+.background-img {
+  width: 200px;
+  position: fixed;
+  left: 15%;
+  z-index: -1;
+  opacity: 0.8;
+}
