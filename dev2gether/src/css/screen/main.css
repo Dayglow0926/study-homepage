@@ -2,6 +2,7 @@
 
 body {
   background-image: url("../../../img/dev2gether.jpeg");
+  background-size: cover;
 }
 
 a {
@@ -66,7 +67,7 @@ a {
 }
 .study-subject > div {
   margin-top: 5%;
-  width: inherit;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
