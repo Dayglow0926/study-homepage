@@ -23,6 +23,7 @@ a {
   overflow-y: scroll;
   padding-top: 100px;
   opacity: 0.8;
+  box-sizing: border-box;
 }
 .member {
   display: flex;
