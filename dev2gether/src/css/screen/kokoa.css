@@ -32,6 +32,9 @@ a {
   align-items: center;
   margin-bottom: 60px;
 }
+.member > img {
+  margin-bottom: 100px;
+}
 .member-title {
   margin-bottom: 20px;
   font-size: 25px;
