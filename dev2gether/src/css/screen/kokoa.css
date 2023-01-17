@@ -11,6 +11,10 @@ body {
   align-items: center;
   margin: 0;
 }
+
+body > img {
+  padding-top: 20px;
+}
 a {
   color: white;
   text-decoration: none;
