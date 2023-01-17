@@ -1,0 +1,89 @@
+@import url("../style.css");
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+body > img {
+  padding-top: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.credit {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  padding-top: 100px;
+  opacity: 0.8;
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+.credit::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.member > img {
+  margin-bottom: 100px;
+}
+
+.member > span {
+  margin-bottom: 100px;
+}
+.member-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.member-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.member-content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.member-content span {
+  text-align: right;
+  width: 45%;
+}
+.member-content p {
+  width: 45%;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.background-img img {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+}
+.background-img {
+  width: 200px;
+  position: fixed;
+  left: 15%;
+  z-index: -1;
+  opacity: 0.8;
+}
